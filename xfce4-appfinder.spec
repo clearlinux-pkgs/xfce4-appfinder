@@ -4,7 +4,7 @@
 #
 Name     : xfce4-appfinder
 Version  : 4.13.0
-Release  : 6
+Release  : 7
 URL      : http://archive.xfce.org/src/xfce/xfce4-appfinder/4.13/xfce4-appfinder-4.13.0.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfce4-appfinder/4.13/xfce4-appfinder-4.13.0.tar.bz2
 Summary  : No detailed summary available
