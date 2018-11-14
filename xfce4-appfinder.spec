@@ -4,16 +4,16 @@
 #
 Name     : xfce4-appfinder
 Version  : 4.13.1
-Release  : 9
+Release  : 10
 URL      : http://archive.xfce.org/src/xfce/xfce4-appfinder/4.13/xfce4-appfinder-4.13.1.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfce4-appfinder/4.13/xfce4-appfinder-4.13.1.tar.bz2
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-2.0
-Requires: xfce4-appfinder-bin
-Requires: xfce4-appfinder-data
-Requires: xfce4-appfinder-license
-Requires: xfce4-appfinder-locales
+Requires: xfce4-appfinder-bin = %{version}-%{release}
+Requires: xfce4-appfinder-data = %{version}-%{release}
+Requires: xfce4-appfinder-license = %{version}-%{release}
+Requires: xfce4-appfinder-locales = %{version}-%{release}
 BuildRequires : intltool
 BuildRequires : pkgconfig(garcon-1)
 BuildRequires : pkgconfig(gio-2.0)
@@ -30,8 +30,8 @@ BuildRequires : pkgconfig(libxfconf-0)
 %package bin
 Summary: bin components for the xfce4-appfinder package.
 Group: Binaries
-Requires: xfce4-appfinder-data
-Requires: xfce4-appfinder-license
+Requires: xfce4-appfinder-data = %{version}-%{release}
+Requires: xfce4-appfinder-license = %{version}-%{release}
 
 %description bin
 bin components for the xfce4-appfinder package.
@@ -69,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1536132548
+export SOURCE_DATE_EPOCH=1542225687
 %configure --disable-static
 make  %{?_smp_mflags}
 
@@ -81,10 +81,10 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1536132548
+export SOURCE_DATE_EPOCH=1542225687
 rm -rf %{buildroot}
-mkdir -p %{buildroot}/usr/share/doc/xfce4-appfinder
-cp COPYING %{buildroot}/usr/share/doc/xfce4-appfinder/COPYING
+mkdir -p %{buildroot}/usr/share/package-licenses/xfce4-appfinder
+cp COPYING %{buildroot}/usr/share/package-licenses/xfce4-appfinder/COPYING
 %make_install
 %find_lang xfce4-appfinder
 
@@ -103,8 +103,8 @@ cp COPYING %{buildroot}/usr/share/doc/xfce4-appfinder/COPYING
 /usr/share/applications/xfce4-run.desktop
 
 %files license
-%defattr(-,root,root,-)
-/usr/share/doc/xfce4-appfinder/COPYING
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/xfce4-appfinder/COPYING
 
 %files locales -f xfce4-appfinder.lang
 %defattr(-,root,root,-)
