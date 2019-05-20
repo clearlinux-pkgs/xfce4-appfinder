@@ -4,7 +4,7 @@
 #
 Name     : xfce4-appfinder
 Version  : 4.13.3
-Release  : 13
+Release  : 14
 URL      : http://archive.xfce.org/src/xfce/xfce4-appfinder/4.13/xfce4-appfinder-4.13.3.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfce4-appfinder/4.13/xfce4-appfinder-4.13.3.tar.bz2
 Summary  : An application finder for Xfce
@@ -69,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1558211378
+export SOURCE_DATE_EPOCH=1558341593
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
@@ -88,7 +88,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1558211378
+export SOURCE_DATE_EPOCH=1558341593
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/xfce4-appfinder
 cp COPYING %{buildroot}/usr/share/package-licenses/xfce4-appfinder/COPYING
