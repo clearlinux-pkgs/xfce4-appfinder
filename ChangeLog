@@ -1,3 +1,51 @@
+commit 131d28899e3abe5d2f44da74e55da4009727eed9
+Author: Kjell Cato Heskjestad <cato@heskjestad.xyz>
+Date:   Sun Aug 11 12:30:32 2019 +0200
+
+    I18n: Update translation nb (100%).
+    
+    81 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 99715ed02f760f79eaf791fc491cab7d397f791e
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Fri Aug 2 12:30:32 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    81 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 2678029ba472d603df5e4d7ee7f4936a5ac978f9
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Fri Aug 2 00:29:05 2019 -0300
+
+    Replace GtkStock buttons
+
+commit c99195d60dcaa4d0924e5463d31b222dc12cf5b7
+Author: Michael Martins <michaelfm21@gmail.com>
+Date:   Mon Jul 29 06:30:41 2019 +0200
+
+    I18n: Update translation pt_BR (100%).
+    
+    81 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit ea0e346e725c715f25ba6fb872aa2e26414fb414
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Jul 28 12:27:58 2019 -0300
+
+    Back to development
+
+commit b42df7548ae7282f6936ad117658b594a18a6c4b
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Jul 28 12:25:38 2019 -0300
+
+    Updates for release
+
 commit 99471112840974fa253e17c7f4da4608188a3d57
 Author: Kjell Cato Heskjestad <cato@heskjestad.xyz>
 Date:   Wed Jul 24 18:30:32 2019 +0200
