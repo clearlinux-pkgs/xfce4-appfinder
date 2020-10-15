@@ -1,3 +1,177 @@
+commit 212cf4a5e2b30045c8e3b47feebd3b91381f04fa
+Author: bact <arthit@gmail.com>
+Date:   Tue Oct 13 12:46:27 2020 +0200
+
+    I18n: Update translation th (97%).
+    
+    82 translated messages, 2 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit e853c93ecf52d2e43640945f71c6b1eee9992c9e
+Author: Zmicer Turok <nashtlumach@gmail.com>
+Date:   Tue Oct 13 12:46:27 2020 +0200
+
+    I18n: Update translation be (100%).
+    
+    84 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 8715acdf448805d4e46abfd074a102352c232dc5
+Author: Luna Jernberg <bittin@cafe8bitar.se>
+Date:   Fri Oct 9 12:46:42 2020 +0200
+
+    I18n: Update translation sv (96%).
+    
+    81 translated messages, 3 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 60d5671ba7c99fe382d89b16747e46feb53b1ad0
+Author: Michal Várady <miko.vaji@gmail.com>
+Date:   Sun Oct 4 00:45:52 2020 +0200
+
+    I18n: Update translation cs (100%).
+    
+    84 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit dc7274f669c2a19e41fc47cb11784fa7f5a6525c
+Author: Dušan Kazik <prescott66@gmail.com>
+Date:   Fri Oct 2 12:46:58 2020 +0200
+
+    I18n: Update translation sk (98%).
+    
+    83 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 8d1ef6ead4ea9df41dc03c7dc0e839a065dfd7ed
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Mon Aug 24 22:28:30 2020 -0300
+
+    Add small delay before reloading menu tree (!6)
+    
+    I suspect that in some cases desktop files aren't completely written
+    when garcon_menu_load is called.
+    
+    Fixes #22
+
+commit 6a4e08e6f807db0bee19c9b75ce0c48ebfcfea0f
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Tue Sep 29 18:00:13 2020 -0300
+
+    Clear entry's error icon and tooltip
+    
+    Fixes #29
+
+commit a275911687d19a5eb3472437fdafe0a4d364f5c5
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Tue Sep 29 17:50:33 2020 -0300
+
+    Update copyright year
+
+commit 32772f79ede5d639cf4d53b7608a9691933221fd
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Tue Sep 29 17:50:12 2020 -0300
+
+    GitLab is the new bugtracker
+
+commit 0b30dfcb737344a6f11617e790e4712bc096c58b
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Tue Sep 29 17:49:03 2020 -0300
+
+    Remove unnecessary code for unsupported glib versions
+
+commit b28a52374ce9fd57395b0bb9486f702aad62de65
+Author: Panwar108 <caspian7pena@gmail.com>
+Date:   Mon Sep 21 00:45:56 2020 +0200
+
+    I18n: Update translation hi (100%).
+    
+    84 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 100a1ea2758dd6ab4a6e303a210049ce35226d15
+Author: Panwar108 <caspian7pena@gmail.com>
+Date:   Sun Sep 20 12:46:46 2020 +0200
+
+    I18n: Add new translation hi (76%).
+    
+    64 translated messages, 20 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c8ae6277bde069908d95f2a863c615e345b7dc92
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Thu Sep 17 20:51:14 2020 -0300
+
+    Remove padding from context menu
+
+commit fc6be778f6381eebf81209c59cc9529fb3ef506f
+Author: Jan Ziak <0xe2.0x9a.0x9b@gmail.com>
+Date:   Wed Sep 16 17:36:15 2020 +0200
+
+    Fix memory leaks when sorting items
+
+commit f3d857bc4c0b3ee26f2f2bf659b887a6f6c770e2
+Author: Kevin Bowen <kevin.bowen@gmail.com>
+Date:   Fri Sep 11 19:22:57 2020 +0200
+
+    Update README.md
+
+commit 4e917c423142c6833a611e3c258a5f9bd3f17f49
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Aug 30 15:36:48 2020 -0300
+
+    Apply light blue to 16px icon
+    
+    Considering other icon sizes use gradient instead of solid color,
+    light blue (106 207 236) seems to be a better fit than blue (0 170 222).
+
+commit 0837dc75c4f3136c7b47194a1697053818958523
+Author: Maurizio Galli <maurizio.galli@gmail.com>
+Date:   Sat Aug 29 10:06:23 2020 +0800
+
+    Improved and simplified icons for better scaling
+
+commit df88f609d22f495d496f6eb3cf44661eebed4295
+Author: Triyan W. Nugroho <triyan.wn@gmail.com>
+Date:   Sun Aug 23 12:46:48 2020 +0200
+
+    I18n: Update translation id (100%).
+    
+    84 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit b3171bbf981abf6a3461d8a0d083681c5a7532b7
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Thu Aug 20 19:17:32 2020 -0300
+
+    Add back git tag
+
+commit c8ce0f80345384e8112d9a9cdd8786a5c4100e8d
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Thu Aug 20 19:12:32 2020 -0300
+
+    Remove extra spaces in configure.ac.in so xfce-do-release works as expected
+
+commit 26da8f3bf4d8ff778c5a4d76f388a6bb906b840c
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Thu Aug 20 18:09:53 2020 -0300
+
+    Back to development
+
+commit 02a8270eeac325713cc20d714e1cd5daabeef4f9
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Thu Aug 20 18:04:04 2020 -0300
+
+    Updates for release
+
 commit d30e52a95c52299f6e1e6f25844556cac50714d0
 Author: Andre Miranda <andreldm@xfce.org>
 Date:   Thu Aug 20 18:02:19 2020 -0300
