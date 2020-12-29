@@ -4,9 +4,9 @@
 #
 Name     : xfce4-appfinder
 Version  : 4.16.0
-Release  : 23
-URL      : http://archive.xfce.org/src/xfce/xfce4-appfinder/4.16/xfce4-appfinder-4.16.0.tar.bz2
-Source0  : http://archive.xfce.org/src/xfce/xfce4-appfinder/4.16/xfce4-appfinder-4.16.0.tar.bz2
+Release  : 24
+URL      : https://archive.xfce.org/src/xfce/xfce4-appfinder/4.16/xfce4-appfinder-4.16.0.tar.bz2
+Source0  : https://archive.xfce.org/src/xfce/xfce4-appfinder/4.16/xfce4-appfinder-4.16.0.tar.bz2
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-2.0
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1609178045
+export SOURCE_DATE_EPOCH=1609285359
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -90,7 +90,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1609178045
+export SOURCE_DATE_EPOCH=1609285359
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/xfce4-appfinder
 cp %{_builddir}/xfce4-appfinder-4.16.0/COPYING %{buildroot}/usr/share/package-licenses/xfce4-appfinder/dfac199a7539a404407098a2541b9482279f690d
